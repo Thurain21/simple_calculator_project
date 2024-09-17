@@ -1,0 +1,9 @@
+.input-frame{
+    width: 400px;
+    height: 50px;
+    background-color: gray;
+    text-align: end;
+    line-height: 50px;
+    padding-right: 10px;
+    font-size: 30px;
+}

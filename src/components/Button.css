@@ -1,0 +1,41 @@
+.btn-container{
+    width: 400px;
+}
+
+.btn-row{
+    display: flex;
+    
+}
+
+.btn{
+    width: 100px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    transition: 0.5s;
+    border: none;
+    font-size: 20px;
+}
+
+.btn:hover,.btn-result:hover{
+    background-color: rgb(47, 43, 43);
+    color: white;
+    
+}
+.btn-result{
+    width:300px;
+    height: 80px;
+    font-size: 40px;
+    border: none;
+    transition: 0.5s;
+}
+.btn-logo{
+    width:100px;
+    height: 80px;
+    font-size: 20px;
+    border: none;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
