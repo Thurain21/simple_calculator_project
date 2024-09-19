@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Output.css"
-function Output() {
+function Output({output}) {
   return (
     <div className='output-frame'>
-        0
+        {output}
     </div>
   )
 }

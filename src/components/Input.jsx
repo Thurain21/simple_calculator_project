@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Input.css"
-function Input() {
+function Input({input}) {
   return (
-    <div className='input-frame'>0</div>
+    <div className='input-frame'>{input}</div>
   )
 }
 
