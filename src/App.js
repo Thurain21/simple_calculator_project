@@ -10,12 +10,17 @@ function App() {
   const [output,setOutput] = useState(0);
   const [input,setInput]=useState(0);
 
+  function clickEventHandler(value){
+    console.log(value);
+    
+  }
+
   return (
       <div className='container'>
         <div className='frame'>
           <Output output={output}/>
          <Input input={input} />
-        <Button/>
+        <Button clickeventhandler={clickEventHandler}/>
         </div>
         
       
