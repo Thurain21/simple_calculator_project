@@ -35,7 +35,7 @@ function Button({clickeventhandler}) {
         </div>
         <div className='btn-row'>
             <button className='btn-logo'>TOM</button>
-            <button className='btn-result' >=</button>
+            <button className='btn-result' onClick= {(e)=>{clickeventhandler(e.target.innerText)}}>=</button>
         </div>
 
     </div>
