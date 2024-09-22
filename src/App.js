@@ -11,24 +11,23 @@ function App() {
   const [input,setInput]=useState(0);
 
   function clickEventHandler(value){
-   if(value === 'C'){
-    setInput(0);
-    setOutput(0);
-   }else if(value === 'Dele'){
 
-   }else if(value === '='){
-    setOutput(eval(input));
-    setInput(0);
-   }
+    if(value=='C'){
+      setInput(0);
+      setOutput(0);
+    }else if(input == 0){
+      setInput(value);
+    }
+    else if(value =='='){
+      setOutput(eval(input));
+      setInput(0);
+    }
+    else{
+      setInput(input+value);
+    }
    
-   else {
-    input === 0 ? setInput(input) : setInput( input + value);
-    setInput(input+value);
-    console.log(input);
     
     
-
-   }
     
   }
 
